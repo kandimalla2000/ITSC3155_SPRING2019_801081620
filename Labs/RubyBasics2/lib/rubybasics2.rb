@@ -12,5 +12,16 @@ end
 
 # Part III
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+  boolT = false
+  if(s.match?(/(?i)([a-z])/))
+    return false
+  end 
+  if(s.length() == 1)
+    if(s[0] == '0')
+      boolT = true
+    end
+  else
+    boolT = s.match?(/00$/)
+  end
+  return boolT
 end
