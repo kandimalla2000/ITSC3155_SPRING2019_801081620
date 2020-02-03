@@ -7,7 +7,7 @@ end
 
 # Part II
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  return s.start_with?(/(?i)([b-z&&[^eiou]])/)
 end
 
 # Part III
