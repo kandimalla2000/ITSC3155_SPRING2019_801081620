@@ -1,9 +1,22 @@
 module FunWithStrings
   def palindrome?
-    # your code here
+    x = 0
+    word = self.downcase
+    word = word.gsub(/[^a-zA-Z]/, '')
+    while x < word.length/2 do
+      
+      if word[x] != word[word.length-x-1]
+        return false
+      end
+      x = x + 1
+    end
+    
+    return true
+    
   end
   def count_words
-    # your code here
+    
+    
   end
   def anagram_groups
     # your code here
