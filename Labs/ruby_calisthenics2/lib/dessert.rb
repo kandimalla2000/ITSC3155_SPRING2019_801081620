@@ -44,5 +44,13 @@ class JellyBean < Dessert
     @flavor = flavor
   end
   
+  def delicious?
+    if(@flavor != 'licorice')
+      return true
+    else
+      return false
+    end
+      
+  end
   
 end
