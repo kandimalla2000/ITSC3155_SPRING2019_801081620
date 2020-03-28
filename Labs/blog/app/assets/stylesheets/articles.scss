@@ -13,4 +13,13 @@ textarea{
     padding:10px 10px;
     border: 2px solid #ccc;
     background-color:#g8g8g8;
+    resize:none;
 }
+ input[type=button] , input[type=submit]{
+     background-color: #4CAF50;
+     float: right;
+     border:white;
+     padding:16px 20px;
+     text-decoration: none;
+     cursor: pointer;
+ }
