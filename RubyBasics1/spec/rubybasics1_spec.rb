@@ -26,7 +26,7 @@ describe 'Ruby Basics 1 Part I' do
 end
 
 describe 'Ruby Basics 1 Part II' do
-  describe "#max_2_sum", :disabled => true do
+  describe "#max_2_sum" do
     it "should be defined" do
       expect { max_2_sum([1,2,3]) }.not_to raise_error
     end
@@ -47,7 +47,7 @@ describe 'Ruby Basics 1 Part II' do
 end
 
 describe 'Ruby Basics 1 Part III' do
-  describe "#sum_to_n", :disabled => true do
+  describe "#sum_to_n" do
     it "should be defined" do
       expect { sum_to_n?([1,2,3],4) }.not_to raise_error
     end
